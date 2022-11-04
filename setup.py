@@ -13,6 +13,10 @@ def get_requirements()->List[str]:
     """
     write code to read requiremnet.txt and return list
     """
+    # with open ("sensor-data-detection/requirements.txt",'r') as f:
+    #     for line in f:
+    #         requirement_list.append(line)
+
     return requirement_list
 
 setup(
